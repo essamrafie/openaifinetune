@@ -1,0 +1,68 @@
+# -------------------------------
+# General Python Exclusions
+# -------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+
+# Virtual Environments
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+pyenv311/
+
+# Logs and Temporary Files
+*.log
+*.tmp
+
+# Pipenv & Poetry
+*.lock
+.pipfile
+.pipenv/
+
+# -------------------------------
+# Jupyter Notebook Exclusions
+# -------------------------------
+.ipynb_checkpoints/
+
+# -------------------------------
+# OpenAI Project-Specific Exclusions
+# -------------------------------
+# Dataset Files
+datasets/*.jsonl
+
+# Sensitive Information
+*.env
+openai_api_key.txt
+
+# -------------------------------
+# VS Code Exclusions
+# -------------------------------
+.vscode/
+
+# -------------------------------
+# Operating System Exclusions
+# -------------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+.cache/
+
+# -------------------------------
+# Backup and Temporary Files
+# -------------------------------
+*.bak
+*.swp
+*.swo
+*.~*
+*.tmp
